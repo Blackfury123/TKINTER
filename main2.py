@@ -1,0 +1,16 @@
+from tkinter import *
+window=Tk()
+window.title("chair")
+window.geometry("600x600")
+lbl=Label(text="bluetooth speaker" , fg="#ffffff",bg="#000000")
+lbl.pack()
+first_name=Entry()
+first_name.pack()
+last_name=Entry()
+last_name.pack()
+button=Button(text="TELL ME YOUR NAME!!!!",fg="#000000",bg="#ffffff")
+button.pack()
+txt=Text(bg="#00d2df",fg="#f900d0")
+txt.pack()
+
+window.mainloop()
